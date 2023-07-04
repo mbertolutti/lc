@@ -31,7 +31,7 @@ std::string my_solution(std::string &address)
 }
 
 int main()
-{ 
+{
     constexpr uint16_t my_mod = 256;
     auto address = fmt::format("{}.{}.{}.{}",my_mt19937(my_mod) ,my_mt19937(my_mod) ,my_mt19937(my_mod) ,my_mt19937(my_mod));
     fmt::print("{}", address);
